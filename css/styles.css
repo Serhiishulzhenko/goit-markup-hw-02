@@ -81,6 +81,9 @@
   .sources {
     color: var(--title-clr);
   }
+  .sources.current{
+    color: var(--clr-blue);
+  }
   .mail,
   .phone {
     color: var(--brand-color);

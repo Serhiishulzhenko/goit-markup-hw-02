@@ -6,7 +6,7 @@
     --clr-blue: #2196f3;
     --clr-black: #000000;
     --title-clr: #212121;
-    --footer-link: #acacb0;
+    --footer-link: rgba(255, 255, 255, 0.6);
     --border-works: #eeeeee;
     --border-head: #ececec;
   }
@@ -15,8 +15,8 @@
     letter-spacing: 0.03em;
     color: var(--brand-color);
     background-color: var(--bkg-body);
-    max-width: 1600px;
-    margin: 0 auto;
+    /* max-width: 1600px;
+    margin: 0 auto; */
   }
   .header,
   .head-content,
@@ -276,7 +276,8 @@
     cursor: pointer;
   }
   .filter-btn:hover,
-  .filter-btn:focus {
+  .filter-btn:focus,
+  .active {
     background-color: var(--clr-blue);
     color: var(--bkg-body);
   }
@@ -295,7 +296,7 @@
   .categorie-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 2;
     letter-spacing: 0.06em;
     padding-left: 24px;
   }
